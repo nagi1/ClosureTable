@@ -1,42 +1,59 @@
 {
-    "name": "franzose/closure-table",
-    "description": "Adjacency List’ed Closure Table database design pattern implementation for Laravel",
-    "keywords": ["laravel", "closure table", "database", "adjacency list", "pages", "categories", "hierarchy"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Jan Iwanow",
-            "email": "iwanow.jan@gmail.com",
-            "homepage": "http://janiwanow.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": ">=7.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.0|^7.0|^8.0|^9.0",
-        "orchestra/testbench": "^3.4|^4.0|^5.0|^6.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Franzose\\ClosureTable\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Franzose\\ClosureTable\\Tests\\": "tests/"
-        }
-    },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "minimum-stability": "stable",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Franzose\\ClosureTable\\ClosureTableServiceProvider"
-            ]
-        }
-    }
+	"name": "nagi/closure-table",
+	"description": "Adjacency List’ed Closure Table database design pattern implementation for Laravel",
+	"keywords": [
+		"laravel",
+		"closure table",
+		"database",
+		"adjacency list",
+		"pages",
+		"categories",
+		"hierarchy"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jan Iwanow",
+			"email": "iwanow.jan@gmail.com",
+			"homepage": "http://janiwanow.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Nagi",
+			"email": "ahmedflnagi@gmail.com",
+			"homepage": "https://ahmednagi.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.0",
+		"illuminate/contracts": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+		"illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+		"illuminate/database": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^6.0|^7.0|^8.0|^9.0",
+		"orchestra/testbench": "^3.4|^4.0|^5.0|^6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Franzose\\ClosureTable\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Franzose\\ClosureTable\\Tests\\": "tests/"
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Franzose\\ClosureTable\\ClosureTableServiceProvider"
+			]
+		}
+	}
 }
